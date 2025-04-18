@@ -5,21 +5,25 @@
 ### ✨ Features
 
 - Real-time download and upload speed display
-- Color-coded output (Green, Yellow, Red)
-- Toggle between Mbps and MBps with a single keystroke
+- Color-coded output (Green, Yellow)
 - Cross-platform support (Windows, macOS, Linux)
 - Simple, dependency-light, and fast
 
 ### 📦 Requirements
 
-- Python 3.6+
+- Python 3.11+
 - `psutil`
 - `colorama`
 
 Install dependencies:
 ```bash
 pip install psutil colorama
-
-🚀 Run It
+```
+### 🚀 Run It
 ```bash
 python speedmeter_cli.py
+```
+Press Enter anytime to toggle between Mbps and MBps.
+
+### 📌 Note
+This tool runs locally and is intended for personal use to monitor real-time network activity without any external services.
