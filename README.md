@@ -21,7 +21,7 @@ pip install psutil colorama
 ```
 ### 🚀 Run It
 ```bash
-python speedmeter_cli.py
+python speed.py
 ```
 Press Enter anytime to toggle between Mbps and MBps.
 
